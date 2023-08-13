@@ -9,11 +9,11 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 # you need to change all these
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'A package for tagging photo, all the tags will be combine to a sentence.'
 
 setup(
-    name="simple_tagger",
+    name="light_tagger",
     version=VERSION,
     author="bubbliiiing",
     author_email="bubbliiiing@qq.com",
@@ -33,8 +33,6 @@ setup(
         "opencv-python",
         "onnxruntime-gpu",
         "numpy",
-        "tempfile",
-        "urllib",
         "tqdm",
     ],
     # keywords=['python', 'menu', 'dumb_menu','windows','mac','linux'],

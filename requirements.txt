@@ -3,6 +3,4 @@ requests>=2.30.0
 opencv-python
 onnxruntime-gpu
 numpy
-tempfile
-urllib
 tqdm

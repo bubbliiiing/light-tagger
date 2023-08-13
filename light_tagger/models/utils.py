@@ -17,7 +17,7 @@ DEFAULT_CACHE_DIR = '~/.cache'
 
 def get_tagger_home(cache_dir = None) -> str:
     if cache_dir == None:
-        model_dir = os.path.expanduser(os.path.join(DEFAULT_CACHE_DIR, 'simple-tagger'))
+        model_dir = os.path.expanduser(os.path.join(DEFAULT_CACHE_DIR, 'light-tagger'))
     else:
         model_dir = cache_dir
     return model_dir

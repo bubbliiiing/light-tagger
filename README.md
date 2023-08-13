@@ -1,4 +1,4 @@
-## simple-tagger简单的打标工具，可以用于实现各类打标并合并成一句话。
+## light-tagger简单的打标工具，可以用于实现各类打标并合并成一句话。
 ---
 
 ## 目录
@@ -19,17 +19,17 @@ pip install -r requirements.txt
 
 (Optional) 为了方便调用，可使用   
 ```
-pip install simple-tagger
+pip install light-tagger
 ```
 或者   
 ```
-git clone https://github.com/bubbliiiing/simple-tagger.git
-cd simple-tagger
+git clone https://github.com/bubbliiiing/light-tagger.git
+cd light-tagger
 python setup.py install
 ```
 快速安装。  
 
-然后，我们就可以在别的project里面使用simple-tagger。  
+然后，我们就可以在别的project里面使用light-tagger。  
 
 ## 预测步骤
 ### a、Demo
@@ -37,10 +37,10 @@ python setup.py install
 ```python
 python predict.py
 ```  
-### b、在别的项目中使用simple-tagger**。  
+### b、在别的项目中使用light-tagger**。  
 1. 首先导入TaggerPredictor。  
 ```python
-from simple_tagger import TaggerPredictor
+from light_tagger import TaggerPredictor
 ```
 2. 根据模型名称创建模型。   
 ```
