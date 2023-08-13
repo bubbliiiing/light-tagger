@@ -5,10 +5,10 @@ import cv2
 from .utils import *
 
 wd_model_name_2_url = {
-    "SmilingWolf/wd-v1-4-convnext-tagger-v2"        : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-convnext-tagger-v2.onnx",
-    "SmilingWolf/wd-v1-4-convnextv2-tagger-v2.onnx" : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-convnextv2-tagger-v2.onnx",
-    "SmilingWolf/wd-v1-4-swinv2-tagger-v2"          : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-swinv2-tagger-v2.onnx",
-    "SmilingWolf/wd-v1-4-vit-tagger-v2"             : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-vit-tagger-v2.onnx",
+    "SmilingWolf/wd-v1-4-convnext-tagger-v2"    : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-convnext-tagger-v2.onnx",
+    "SmilingWolf/wd-v1-4-convnextv2-tagger-v2"  : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-convnextv2-tagger-v2.onnx",
+    "SmilingWolf/wd-v1-4-swinv2-tagger-v2"      : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-swinv2-tagger-v2.onnx",
+    "SmilingWolf/wd-v1-4-vit-tagger-v2"         : "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/SmilingWolf-wd-v1-4-vit-tagger-v2.onnx",
 }
 
 csv_url = "https://huggingface.co/bubbliiiing/simple-tagger/resolve/main/selected_tags.csv"
